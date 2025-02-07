@@ -64,6 +64,7 @@ require("lspconfig").lua_ls.setup {
   },
 }
 
-require'lspconfig'.pyright.setup{}
+require("lspconfig").pyright.setup{}
+-- require'lspconfig'.foam-language-server.setup{}
 
 return M

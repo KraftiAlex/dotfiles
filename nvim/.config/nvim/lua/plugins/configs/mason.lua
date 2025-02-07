@@ -1,7 +1,9 @@
 local options = {
-  ensure_installed = { "lua-language-server" }, -- not an option from mason.nvim
+  ensure_installed = { "lua-language-server", "pyright", "foam_ls"}, -- not an option from mason.nvim
 
   PATH = "skip",
+
+  automatic_installation = true,
 
   ui = {
     icons = {
